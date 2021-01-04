@@ -1,0 +1,29 @@
+#account-fw {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 300px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 200px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+ 
+.zip,
+.state {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+

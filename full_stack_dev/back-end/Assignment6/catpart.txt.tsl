@@ -1,0 +1,310 @@
+
+Test Case 1  		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 2  		<single>
+   Presence of a file corresponding to the name :  Present
+
+
+Test Case 3  		<error>
+   Size :  Empty
+
+
+Test Case 4  		<single>
+   Size :  Not Empty
+
+
+Test Case 5  		<single>
+   File format :  ASCII
+
+
+Test Case 6  		<error>
+   File format :  Others
+
+
+Test Case 7  		<single>
+   -a flag specified :  Yes
+
+
+Test Case 8  		<single>
+   -a flag specified :  No
+
+
+Test Case 9  		<single>
+   File has string :  Present
+
+
+Test Case 10 		<error>
+   File has string :  Not Present
+
+
+Test Case 11 		<error>
+   Testing to verify string input size :  0
+
+
+Test Case 12 		<single>
+   Testing to verify string input size :  >0
+
+
+Test Case 13 		<error>
+   Testing to verify string input size :  <0
+
+
+Test Case 14 		<single>
+   Testing output with upper case input :  Valid
+
+
+Test Case 15 		<error>
+   Testing output with upper case input :  Invalid
+
+
+Test Case 16 		<single>
+   Testing output with mixed letter case input :  Valid
+
+
+Test Case 17 		<error>
+   Testing output with mixed letter case input :  Invalid
+
+
+Test Case 18 		<single>
+   Testing output with lower letter case input :  Valid
+
+
+Test Case 19 		<error>
+   Testing output with lower letter case input :  Invalid
+
+
+Test Case 20 		<single>
+   -r flag Specified :  Yes
+
+
+Test Case 21 		<single>
+   -r flag Specified :  No
+
+
+Test Case 22 		<single>
+   File has string :  Success
+
+
+Test Case 23 		<error>
+   File has string :  Failure
+
+
+Test Case 24 		<error>
+   Testing to verify string input :  0
+
+
+Test Case 25 		<single>
+   Testing to verify string input :  >0
+
+
+Test Case 26 		<error>
+   Testing to verify string input :  <0
+
+
+Test Case 27 		<single>
+   Remove alphabetic string of characters from an an alpha-numeric string :  Success
+
+
+Test Case 28 		<error>
+   Remove alphabetic string of characters from an an alpha-numeric string :  Failure
+
+
+Test Case 29 		<single>
+   -k flag specifiied :  Yes
+
+
+Test Case 30 		<single>
+   -k flag specifiied :  No
+
+
+Test Case 31 		<single>
+   Testing to verify string input :  Success
+
+
+Test Case 32 		<error>
+   Testing to verify string input :  Failure
+
+
+Test Case 33 		<error>
+   Testing to verify string input :  0
+
+
+Test Case 34 		<single>
+   Testing to verify string input :  >0
+
+
+Test Case 35 		<error>
+   Testing to verify string input :  <0
+
+
+Test Case 36 		<single>
+   Keep alphabetic string of characters from an an alpha-numeric string :  Success
+
+
+Test Case 37 		<error>
+   Keep alphabetic string of characters from an an alpha-numeric string :  Failure
+
+
+Test Case 38 		<single>
+   -c flag specified :  Yes
+
+
+Test Case 39 		<single>
+   -c flag specified :  No
+
+
+Test Case 40 		<error>
+   Testing to verify string input :  0
+
+
+Test Case 41 		<single>
+   Testing to verify string input :  >0
+
+
+Test Case 42 		<error>
+   Testing to verify string input :  <0
+
+
+Test Case 43 		<single>
+   Reverse capitalization of an alphabetic string's values :  Success
+
+
+Test Case 44 		<error>
+   Reverse capitalization of an alphabetic string's values :  Failure
+
+
+Test Case 45 		<error>
+   -kr flag specified :  Yes
+
+
+Test Case 46 		<single>
+   -kr flag specified :  No
+
+
+Test Case 47 		<single>
+   -Encrypt a mixed string value, keep values in a specified string, and reverse cap :  Valid
+
+
+Test Case 48 		<error>
+   -Encrypt a mixed string value, keep values in a specified string, and reverse cap :  Invalid
+
+
+Test Case 49 		<single>
+   -Encrypt a mixed string value, remove values in a specified string, and reverse c :  Valid
+
+
+Test Case 50 		<error>
+   -Encrypt a mixed string value, remove values in a specified string, and reverse c :  Invalid
+
+
+Test Case 51 		<single>
+   Executed -c flag when no flag selected :  Yes
+
+
+Test Case 52 		<single>
+   Executed -c flag when no flag selected :  No
+
+
+Test Case 53 		<single>
+   arc flags selected string successfully encoded with flag specs :  Success
+
+
+Test Case 54 		<error>
+   arc flags selected string successfully encoded with flag specs :  Failure
+
+
+Test Case 55 		<single>
+   akc flags selected string successfully encoded with flag specs :  Success
+
+
+Test Case 56 		<error>
+   akc flags selected string successfully encoded with flag specs :  Failure
+
+
+Test Case 57 		<error>
+   kr flags throw error :  Success
+
+
+Test Case 58 		<single>
+   kr flags throw error :  Failure
+
+
+Test Case 59 		<single>
+   No file path provided :  Success
+
+
+Test Case 60 		<error>
+   No file path provided :  Failure
+
+
+Test Case 61 		<error>
+   No argument for flag specified :  Failure
+
+
+Test Case 62 		(Key = 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name                                      :  <n/a>
+   Size                                                                              :  <n/a>
+   File format                                                                       :  <n/a>
+   -a flag specified                                                                 :  <n/a>
+   File has string                                                                   :  <n/a>
+   Testing to verify string input size                                               :  <n/a>
+   Testing output with upper case input                                              :  <n/a>
+   Testing output with mixed letter case input                                       :  <n/a>
+   Testing output with lower letter case input                                       :  <n/a>
+   -r flag Specified                                                                 :  <n/a>
+   File has string                                                                   :  <n/a>
+   Testing to verify string input                                                    :  <n/a>
+   Remove alphabetic string of characters from an an alpha-numeric string            :  <n/a>
+   -k flag specifiied                                                                :  <n/a>
+   Testing to verify string input                                                    :  <n/a>
+   Testing to verify string input                                                    :  <n/a>
+   Keep alphabetic string of characters from an an alpha-numeric string              :  <n/a>
+   -c flag specified                                                                 :  <n/a>
+   Testing to verify string input                                                    :  Success
+   Testing to verify string input                                                    :  <n/a>
+   Reverse capitalization of an alphabetic string's values                           :  <n/a>
+   -kr flag specified                                                                :  <n/a>
+   -Encrypt a mixed string value, keep values in a specified string, and reverse cap :  <n/a>
+   -Encrypt a mixed string value, remove values in a specified string, and reverse c :  <n/a>
+   Executed -c flag when no flag selected                                            :  <n/a>
+   arc flags selected string successfully encoded with flag specs                    :  <n/a>
+   akc flags selected string successfully encoded with flag specs                    :  <n/a>
+   kr flags throw error                                                              :  <n/a>
+   No file path provided                                                             :  <n/a>
+   No argument for flag specified                                                    :  <n/a>
+
+
+Test Case 63 		(Key = 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name                                      :  <n/a>
+   Size                                                                              :  <n/a>
+   File format                                                                       :  <n/a>
+   -a flag specified                                                                 :  <n/a>
+   File has string                                                                   :  <n/a>
+   Testing to verify string input size                                               :  <n/a>
+   Testing output with upper case input                                              :  <n/a>
+   Testing output with mixed letter case input                                       :  <n/a>
+   Testing output with lower letter case input                                       :  <n/a>
+   -r flag Specified                                                                 :  <n/a>
+   File has string                                                                   :  <n/a>
+   Testing to verify string input                                                    :  <n/a>
+   Remove alphabetic string of characters from an an alpha-numeric string            :  <n/a>
+   -k flag specifiied                                                                :  <n/a>
+   Testing to verify string input                                                    :  <n/a>
+   Testing to verify string input                                                    :  <n/a>
+   Keep alphabetic string of characters from an an alpha-numeric string              :  <n/a>
+   -c flag specified                                                                 :  <n/a>
+   Testing to verify string input                                                    :  Failure
+   Testing to verify string input                                                    :  <n/a>
+   Reverse capitalization of an alphabetic string's values                           :  <n/a>
+   -kr flag specified                                                                :  <n/a>
+   -Encrypt a mixed string value, keep values in a specified string, and reverse cap :  <n/a>
+   -Encrypt a mixed string value, remove values in a specified string, and reverse c :  <n/a>
+   Executed -c flag when no flag selected                                            :  <n/a>
+   arc flags selected string successfully encoded with flag specs                    :  <n/a>
+   akc flags selected string successfully encoded with flag specs                    :  <n/a>
+   kr flags throw error                                                              :  <n/a>
+   No file path provided                                                             :  <n/a>
+   No argument for flag specified                                                    :  <n/a>
+

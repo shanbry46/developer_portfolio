@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>accutreat_api</RootNamespace>
+    <UserSecretsId>720c90d14ce6abf25e98ec2596a8f033</UserSecretsId>
+    <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
+    <PackageReference Include="NpgSql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.1" />
+    <PackageReference Include="Unirest-API" Version="1.0.7.6" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,65 @@
+JUnit version 4.12
+......E......E.E.E.E.......E.E.E.E.E.......E.
+Time: 0.083
+There were 11 failures:
+1) encodeTest15(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [/tmp/junit12551731567543488764/junit16632630775165438240.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+2) encodeTest21(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #3. 
+Arguments used: [-r, , /tmp/junit841273214592067011/junit13012483307737444928.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+3) encodeTest22(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [/tmp/junit6139614236594595439/junit2647959946258425044.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+4) encodeTest23(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #7. 
+Arguments used: [-r, /tmp/junit7903496451084336105/junit12096960538776499826.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+New File Content: AfkdlafFDAKFLDALE;d!@#$$^^&$!%$!%#! 
+Output: 
+5) encodeTest24(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #7. 
+Arguments used: [-k, /tmp/junit15194970681143833984/junit1947365610039506530.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+New File Content: jjJ;u391843!@#$$^^&$!%$!%#! 
+Output: 
+6) encodeTest31(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #10. 
+Arguments used: [, , /tmp/junit2720538477209277168/junit17736839454688400203.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+7) encodeTest32(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #2. 
+Arguments used: [-c, , /tmp/junit16705569369062776274/junit3184560861403450906.tmp]
+Original File: Test Value. 
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+8) encodeTest33(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #8. 
+Arguments used: [-l, z, /tmp/junit15396935870354060764/junit2474536780892709358.tmp]
+Original File: abcd 
+Throws Exception: java.lang.NullPointerException
+9) encodeTest34(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #1. 
+Arguments used: [-a, -2, /tmp/junit2778911752575054008/junit8566912048453780748.tmp]
+Original File: asdf 
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+10) encodeTest1(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [/tmp/junit14184307563615921857/junit12935498090101756271.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+11) encodeTest8(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #9. 
+Arguments used: [-c, Ajfkdlaj, /tmp/junit7824159282809464926/junit3841944563652455111.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+New File Content: AJFKDLaJFfdjAkfldAlE;Du391843!@#$$^^&$!%$!%#! 
+Output: 
+
+FAILURES!!!
+Tests run: 34,  Failures: 11

@@ -1,0 +1,160 @@
+JUnit version 4.12
+.E.E....E......E.E.E.E...E....E.......E.
+Time: 0.272
+There were 10 failures:
+1) encodeTest10(edu.gatech.seclass.encode.MyMainTest)
+org.junit.ComparisonFailure: expected:<[Usage: encode [-a [integer]] [-r string | -k string] [-c string] [-l string] <filename>]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.gatech.seclass.encode.MyMainTest.encodeTest10(MyMainTest.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+2) encodeTest11(edu.gatech.seclass.encode.MyMainTest)
+org.junit.ComparisonFailure: expected:<[Please resubmit your command with a file name.]> but was:<[File Not Found]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.gatech.seclass.encode.MyMainTest.encodeTest11(MyMainTest.java:215)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+3) encodeTest15(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [/var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit3424849426366840381/junit18149656415004156730.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+4) encodeTest21(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #3. 
+Arguments used: [-r, , /var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit4560117764195247258/junit8393866654744272.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+5) encodeTest22(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [/var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit1804820797802371941/junit17957309776345058256.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+6) encodeTest23(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #7. 
+Arguments used: [-r, /var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit1551895965105118646/junit2970030825169133418.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+New File Content: ;!@#$$^^&$!%$!%#! 
+Output: 
+7) encodeTest24(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #7. 
+Arguments used: [-k, /var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit7922854764061962629/junit2655354432685688017.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+New File Content: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+Output: 
+8) encodeTest27(edu.gatech.seclass.encode.MyMainTest)
+org.junit.ComparisonFailure: expected:<[Please resubmit option -k with a valid string of values to remove from your source file.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.gatech.seclass.encode.MyMainTest.encodeTest27(MyMainTest.java:399)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:48)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+9) encodeTest1(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #6. 
+Arguments used: [/var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit14412343140543157399/junit5968205237968539422.tmp]
+Original File:  
+Throws Exception: java.lang.ArrayIndexOutOfBoundsException
+10) encodeTest8(edu.gatech.seclass.encode.MyMainTest)
+edu.gatech.seclass.encode.SDPBugException: You found Bug #9. 
+Arguments used: [-c, Ajfkdlaj, /var/folders/_8/mk6mtkps6m54vzjf5_w9_9bc0000gn/T/junit1482194955048406673/junit4252024373862937020.tmp]
+Original File: AjfkdlajfFDJAKFLDALE;du391843!@#$$^^&$!%$!%#! 
+New File Content: AJFKDLaJFfdjAkfldAlE;Du391843!@#$$^^&$!%$!%#! 
+Output: 
+
+FAILURES!!!
+Tests run: 30,  Failures: 10
+

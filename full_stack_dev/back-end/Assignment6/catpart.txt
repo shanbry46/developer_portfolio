@@ -1,0 +1,121 @@
+# Filename
+  Presence of a file corresponding to the name:
+        Not present. 	[error]
+        Present.	[single]
+
+# File Properties    
+  Size:
+        Empty.       [error]
+        Not Empty.   [single]
+  File format:
+        ASCII.       [single]
+        Others.      [error]	
+
+# Flag Tests
+# -a Flag
+  -a flag specified:
+        Yes.         [single][property bool_a]
+        No.          [single]
+  File has string:
+	Present.        [single][property string]
+	Not Present. 	[error]
+  Testing to verify string input size:
+	0. 	[error]
+	>0.	[single][property length]
+	<0.     [error]
+  Testing output with upper case input:
+	Valid.        [single][property strEncode]
+	Invalid.    [error]
+  Testing output with mixed letter case input:
+	Valid.        [single][property strEncode]
+	Invalid.    [error]
+  Testing output with lower letter case input:
+	Valid.        [single][property strEncode]
+	Invalid.    [error]
+
+# -r Flag
+  -r flag Specified:
+        Yes.         [single][property bool_r]
+        No.          [single]
+  File has string:
+	Success.     [single][property string]
+	Failure.     [error]
+  Testing to verify string input:
+	0. 	[error]
+	>0.	[single][property length]
+	<0.     [error]
+  Remove alphabetic string of characters from an an alpha-numeric string:
+	Success.	[single]if[bool_r && length][property strEncoded]
+	Failure.	[error]
+
+# -k Flag
+  -k flag specifiied:
+        Yes.         [single][property bool_k]
+        No.          [single]
+  Testing to verify string input:
+	Success. 	[single][property string]
+	Failure.	[error]
+  Testing to verify string input:
+	0. 	[error]
+	>0.	[single][property length]
+	<0.     [error]
+  Keep alphabetic string of characters from an an alpha-numeric string:
+	Success.	[single]if[bool_k && length][property strEncoded]
+	Failure.	[error]
+
+# -c flag tests
+  -c flag specified:
+        Yes.         [single][property bool_c]
+        No.          [single]
+  Testing to verify string input:
+	Success. 	[property string]
+	Failure.	
+  Testing to verify string input:
+	0. 	[error]
+	>0.	[single][property length]
+	<0.     [error]
+  Reverse capitalization of an alphabetic string's values:
+	Success.	[single]if[bool_c && length][property strEncoded]
+	Failure.	[error]
+
+#kr Flag tests
+  -kr flag specified:
+	Yes.   [error]
+	No.    [single]
+
+#akc Flag tests
+  -Encrypt a mixed string value, keep values in a specified string, and reverse capitalization:
+	Valid.   [single][property strEncoded]
+	Invalid. [error]
+
+#arc Flag tests
+    -Encrypt a mixed string value, remove values in a specified string, and reverse capitalization:
+	Valid.   [single][property strEncoded]
+	Invalid. [error]
+
+#None of the above selected
+   Executed -c flag when no flag selected:
+	Yes.	[single][property bool_c]
+	No.  	[single]
+
+#Special Scenarios
+   arc flags selected string successfully encoded with flag specs:
+	Success. [single][if bool_a && bool_r && bool_c][property strEncoded]
+	Failure. [error]
+   akc flags selected string successfully encoded with flag specs:
+	Success. [single][if bool_a && bool_k && bool_c][property strEncoded]
+	Failure. [error]
+
+#Error Handling
+   kr flags throw error:
+	Success. [error]
+	Failure. [single][property bool_valid]
+   No file path provided:
+	Success. [single]
+	Failure. [error]
+   No argument for flag specified:
+	Success [single]
+	Failure. [error]
+
+
+

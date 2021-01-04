@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LetterStatistics">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="108dp"
+        android:text="#Trades"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="73dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="108dp"
+        android:text="%Usage"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        android:text="Letter Statistics"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/display_table"
+        android:layout_width="305dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TableLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="58dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="108dp"
+        android:text="Letter"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="108dp"
+        android:text="#Plays"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

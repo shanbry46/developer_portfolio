@@ -1,0 +1,84 @@
+#search-fw {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 900px;
+  max-width: 100%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+
+.username,
+.searchbyname,
+.password,
+.searchbyzip {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+#medication {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#medication td, #medication th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#medication tr:nth-child(even){background-color: #f2f2f2;}
+
+#medication tr:hover {background-color: #ddd;}
+
+#medication th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#search-box {
+  float: center;
+  clear: both;
+  width: 500px;
+  height: 40px;
+}
+
+#filter-box {
+  float: right;
+  clear: both;
+  width: 150px;
+  height: 30px;
+}
+
+#search-submit {
+  float: center;
+  clear: both;
+  width: 100%;
+}
+
+#search-btn {
+  float: center;
+  min-width: 25%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding:  0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(22, 165, 58);
+  color: #fefefe;
+}
+
+#expanded-container {
+  overflow: scroll;
+  overflow-wrap: break-word;
+}
